@@ -1,13 +1,13 @@
 apiVersion: containerservice.azure.com/v1api20230201
 kind: ManagedCluster
 metadata:
-  name: asoprodcluster02
+  name: asoprodcluswus401
   namespace: default
 spec:
   location: westus3
   owner:
-    name: aso-prod-clusters
-  dnsPrefix: asopc02
+    name: aso-prod-clus-wus3
+  dnsPrefix: asopc04
   agentPoolProfiles:
     - name: pool1
       count: 1
@@ -16,3 +16,4 @@ spec:
       mode: System
   identity:
     type: SystemAssigned
+
